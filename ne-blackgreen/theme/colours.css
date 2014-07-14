@@ -4,7 +4,7 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #BFBFBF;
+	color: #E0E0E0;
 	background-color: #000000;
 }
 
@@ -14,12 +14,12 @@ h1 {
 }
 
 h2 {
-	color: #FFFFFF;
+	color: #E0E0E0;
 }
 
 h3 {
 	border-bottom-color: #808080;
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 hr {
@@ -133,11 +133,11 @@ table.table1 tbody tr {
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
 	background-color: #404040;
-	color: #FFFFFF;
+	color: #E0E0E0;
 }
 
 table.table1 td {
-	color: #BFBFBF;
+	color: #C0C0C0;
 }
 
 table.table1 tbody td {
@@ -161,7 +161,7 @@ dl.details dt {
 }
 
 dl.details dd {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 .sep {
@@ -207,7 +207,7 @@ dl.details dd {
 ---------------------------------------- */
 
 .copyright {
-	color: #BFBFBF;
+	color: #C0C0C0;
 }
 
 .error {
@@ -326,7 +326,7 @@ ul.forums {
 }
 
 ul.topiclist li {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 ul.topiclist dd {
@@ -368,7 +368,7 @@ li.row:hover dd {
 }
 
 li.header dt, li.header dd {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 /* Post body styles
@@ -384,7 +384,7 @@ li.header dt, li.header dd {
 }
 
 .content h2, .panel h2 {
-	color: #BFBFBF;
+	color: #E0E0E0;
 	border-bottom-color:  #808080;
 }
 
@@ -472,11 +472,11 @@ blockquote blockquote blockquote {
 }
 
 .attachbox p {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 .attachbox p.stats {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 .attach-image img {
@@ -490,12 +490,12 @@ dl.file dd {
 }
 
 dl.thumbnail img {
-	border-color: #BFBFBF;
+	border-color: #E0E0E0;
 	background-color: #000000;
 }
 
 dl.thumbnail dd {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 dl.thumbnail dt a:hover {
@@ -511,7 +511,7 @@ dl.thumbnail dt a:hover img {
 
 fieldset.polls dl {
 	border-top-color: #404040;
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 fieldset.polls dl.voted {
@@ -579,7 +579,7 @@ fieldset.polls dd div {
 /* Poster profile block
 ----------------------------------------*/
 .postprofile {
-	color: #BFBFBF;
+	color: #E0E0E0;
 	border-color: #000000;
 }
 
@@ -781,7 +781,7 @@ ul.cplist {
 }
 
 .panel-container table.table1 thead th {
-	color: #BFBFBF;
+	color: #E0E0E0;
 	border-bottom-color: #808080;
 }
 
@@ -969,7 +969,7 @@ select {
 }
 
 label {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 option.disabled-option {
@@ -1175,7 +1175,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 ---------------------------------------- */
 
 .notification_list p.notification-time {
-	color: #BFBFBF;
+	color: #E0E0E0;
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
