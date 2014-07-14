@@ -93,7 +93,7 @@ hr {
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
-	background-color: #ECF3F7; /* alte Farbe */
+	background-color: #404040; 
 }
 
 .bg2 {
@@ -769,7 +769,7 @@ Colours and backgrounds for cp.css
 
 .panel-container .panel li.row {
 	border-bottom-color: #808080;
-	border-top-color: #000000;
+	border-top-color: #808080;
 }
 
 ul.cplist {
@@ -781,8 +781,8 @@ ul.cplist {
 }
 
 .panel-container table.table1 thead th {
-	color: #FFFFFF;
-	border-bottom-color: #FFFFFF;
+	color: #BFBFBF;
+	border-bottom-color: #808080;
 }
 
 #cp-main .pm-message {
