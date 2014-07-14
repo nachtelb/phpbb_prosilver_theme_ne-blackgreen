@@ -631,12 +631,12 @@ Colours and backgrounds for buttons.css
 
 .post-buttons .button:hover {
 	border-color: #909090;
-	background-image: -moz-linear-gradient(top, #002000, #000);
-	background-image: -webkit-linear-gradient(top, #002000, #000);
-	background-image: -o-linear-gradient(top, #002000, #000);
-	background-image: linear-gradient(to bottom, #002000, #000);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#002000', EndColorStr='#000')";
-	text-shadow: 1px 1px 0 #505050, -1px -1px 0 #000, -1px -1px 0 rgba(188, 42, 77, 0.2);
+	background-color: #303030;
+	background-image: -moz-linear-gradient(top, #000, #909090);
+	background-image: -webkit-linear-gradient(top, #000, #909090);
+	background-image: -o-linear-gradient(top, #000, #909090);
+	background-image: linear-gradient(to bottom, #000, #909090);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#000', EndColorStr='#909090')";
 }
 
 .dropdown-select, .dropdown-select:visited {
