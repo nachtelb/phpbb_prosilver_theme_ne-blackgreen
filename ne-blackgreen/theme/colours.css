@@ -51,21 +51,19 @@ hr {
 
 .headerbar {
 	background-color: #002000;
-	border-color: #009000;
-	background-image: -moz-linear-gradient(top, #000, #002000);
-	background-image: -webkit-linear-gradient(top, #000, #002000);
-	background-image: -o-linear-gradient(top, #000, #002000);
-	background-image: linear-gradient(to bottom, #000, #002000);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#000', EndColorStr='#002000')";
+	background-image: -moz-linear-gradient(top, #050505, #002000);
+	background-image: -webkit-linear-gradient(top, #050505, #002000);
+	background-image: -o-linear-gradient(top, #050505, #002000);
+	background-image: linear-gradient(to bottom, #050505, #002000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#050505', EndColorStr='#002000')";
 }
 .navbar {
 	background-color: #004000;
-	border-color: #009000;
-	background-image: -moz-linear-gradient(top, #003000, #000);
-	background-image: -webkit-linear-gradient(top, #003000, #000);
-	background-image: -o-linear-gradient(top, #003000, #000);
-	background-image: linear-gradient(to bottom, #003000, #000);
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#003000', EndColorStr='#000')";
+	background-image: -moz-linear-gradient(top, #004000, #001000);
+	background-image: -webkit-linear-gradient(top, #004000, #001000);
+	background-image: -o-linear-gradient(top, #004000, #001000);
+	background-image: linear-gradient(to bottom, #004000, #001000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#004000', EndColorStr='#001000')";
 }
 
 .forabg, .forumbg {
