@@ -91,7 +91,7 @@ hr {
 }
 
 .bg1 {
-	background-color: #262626;
+	background-color: #101010;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -99,7 +99,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #303030;
+	background-color: #171717;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
