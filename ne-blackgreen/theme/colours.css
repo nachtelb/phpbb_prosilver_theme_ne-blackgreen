@@ -226,8 +226,8 @@ li.reported:hover {
 }
 
 div.rules {
-	background-color: #660033;
-	color: #ECD5D8;
+	background-color: #600000;
+	color: #FFF;
 }
 
 p.post-notice {
@@ -446,7 +446,7 @@ blockquote blockquote blockquote {
 }
 
 .codebox code {
-	color: #2E8B57;
+	color: #0D0;
 }
 
 .syntaxbg		{ color: #000000; }
