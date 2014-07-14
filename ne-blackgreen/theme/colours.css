@@ -415,10 +415,10 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #EBEADD;
+	background-color: #303030;
 	background-image: url("./images/quote.gif");
-	border-color:#DBDBCE;
-	color: #000000
+	border-color:#707070;
+	color: #E0E0E0
 }
 
 .rtl blockquote {
@@ -427,12 +427,12 @@ blockquote {
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#EFEED9;
+	background-color:#202020;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EBEADD;
+	background-color: #303030;
 }
 
 /* Code block */
@@ -1041,14 +1041,17 @@ fieldset.quick-login input.inputbox {
 }
 
 
-/* Form button styles
+/* Form button styles       
 ---------------------------------------- */
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	color: #020000;
 	background-color: #909090;
-	background-image: url("./images/bg_button.gif");
-}
+	background-image: -moz-linear-gradient(top, #E0E0E0, #909090);
+	background-image: -webkit-linear-gradient(top, #E0E0E0, #909090);
+	background-image: -o-linear-gradient(top, #E0E0E0, #909090);
+	background-image: linear-gradient(to bottom, #E0E0E0, #909090);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#E0E0E0', EndColorStr='#909090')";}
 
 a.button1, input.button1 {
 	border-color: #BFBFBF;
@@ -1070,10 +1073,12 @@ a.button1, a.button2 {
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: #BFBFBF;
-	color: #FFF;
-  background-color: transparent;
-  background-image: none;
+  background-color: #E0E0E0;
+	background-image: -moz-linear-gradient(top, #909090, #E0E0E0);
+	background-image: -webkit-linear-gradient(top, #909090, #E0E0E0);
+	background-image: -o-linear-gradient(top, #909090, #E0E0E0);
+	background-image: linear-gradient(to bottom, #909090, #E0E0E0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#909090', EndColorStr='#E0E0E0')";}
 }
 
 input.search {
