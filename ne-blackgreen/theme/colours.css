@@ -663,8 +663,8 @@ Colours and backgrounds for buttons.css
 	color: #00cc00;
 }
 
-.contact-icons a		{ border-color: #DCDCDC; }
-.contact-icons a:hover	{ background-color: #F2F6F9; }
+.contact-icons a		{ border-color: #005000; }
+.contact-icons a:hover	{ background-color: #101010; }
 
 /* Icon images
 ---------------------------------------- */
