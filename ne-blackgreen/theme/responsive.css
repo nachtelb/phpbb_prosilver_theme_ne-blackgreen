@@ -424,16 +424,22 @@ fieldset.polls dd.resultbar, fieldset.polls dd.poll_option_percent {
 	margin: 0;
 }
 
+.postprofile .has-avatar .avatar-container {
+	margin: 0;
+	overflow: inherit;
+}
+
+.postprofile .avatar-container:after {
+	clear: none;
+}
+
 .postprofile .avatar {
-	display: block;
-	float: left;
 	margin-right: 5px;
 }
 
 .postprofile .avatar img {
 	width: auto !important;
 	height: auto !important;
-	display: block;
 	max-height: 32px;
 }
 
@@ -458,12 +464,6 @@ p {
 
 p.rightside {
 	margin-bottom: 0;
-}
-
-fieldset.quickmod {
-	width: auto;
-	float: none;
-	text-align: center;
 }
 
 fieldset.display-options label {
@@ -503,14 +503,11 @@ fieldset.display-actions {
 		margin: 0;
 	}
 
-	.action-bar > .pagination, fieldset.jumpbox {
-		text-align: center;
-	}
-
 	.action-bar > .pagination {
 		float: none;
 		clear: both;
 		padding-bottom: 1px;
+		text-align: center;
 	}
 
 	.action-bar > .pagination li.page-jump {
