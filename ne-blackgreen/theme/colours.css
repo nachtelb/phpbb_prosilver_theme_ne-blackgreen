@@ -639,7 +639,7 @@ Colours and backgrounds for buttons.css
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#000', EndColorStr='#909090')";
 }
 
-.dropdown-select, .dropdown-select:visited {
+.dropdown-select {
 	color: #536482; /*alte Farbe */
 }
 
@@ -683,7 +683,6 @@ Colours and backgrounds for buttons.css
 .icon-pm					{ background-image: url("./images/icon_pm.gif"); }
 .icon-print					{ background-image: url("./images/icon_print.gif"); }
 .icon-profile				{ background-image: url("./images/icon_profile.gif"); }
-.icon-quick-links			{ background-image: url("./images/icon_quick_links.gif"); }
 .icon-register				{ background-image: url("./images/icon_register.gif"); }
 .icon-search, .responsive-search a	{ background-image: url("./images/icon_search.gif"); }
 .icon-search-active			{ background-image: url("./images/subforum_read.gif"); }
