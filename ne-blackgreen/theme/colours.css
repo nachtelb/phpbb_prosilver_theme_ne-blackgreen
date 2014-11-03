@@ -603,7 +603,7 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-	border-color: #009000;
+	border-color: #0C4B0C;
 	background-color: #000;
 	background-image: -moz-linear-gradient(top, #003000, #000);
 	background-image: -webkit-linear-gradient(top, #003000, #000);
