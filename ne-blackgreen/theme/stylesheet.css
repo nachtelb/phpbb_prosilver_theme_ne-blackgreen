@@ -8,10 +8,10 @@
 */
 
 @import url("common.css");
-@import url("links.css");
-@import url("content.css");
-@import url("buttons.css");
-@import url("cp.css");
-@import url("forms.css");
+@import url("../../prosilver/theme/links.css");
+@import url("../../prosilver/theme/content.css");
+@import url("../../prosilver/theme/buttons.css");
+@import url("../../prosilver/theme/cp.css");
+@import url("../../prosilver/theme/forms.css");
 @import url("colours.css");
 @import url("imageset.css");
