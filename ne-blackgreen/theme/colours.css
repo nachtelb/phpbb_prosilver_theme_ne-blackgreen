@@ -526,53 +526,53 @@ fieldset.polls dd div {
 }
 
 .pollbar1 {
-	background-color: #AA2346;
-	border-bottom-color: #74162C;
-	border-right-color: #74162C;
+  background-color: #008000;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar1 {
-	border-left-color: #74162C;
+	border-left-color: #0C4B0C;
 }
 
 .pollbar2 {
-	background-color: #BE1E4A;
-	border-bottom-color: #8C1C38;
-	border-right-color: #8C1C38;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar2 {
-	border-left-color: #8C1C38;
+	border-left-color: #0C4B0C;
 }
 
 .pollbar3 {
-	background-color: #D11A4E;
-	border-bottom-color: #AA2346;
-	border-right-color: #AA2346;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar3 {
-	border-left-color: #AA2346;
+	border-left-color: #0C4B0C;
 }
 
 .pollbar4 {
-	background-color: #E41653;
-	border-bottom-color: #BE1E4A;
-	border-right-color: #BE1E4A;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar4 {
-	border-left-color: #BE1E4A;
+	border-left-color: #0C4B0C;
 }
 
 .pollbar5 {
-	background-color: #F81157;
-	border-bottom-color: #D11A4E;
-	border-right-color: #D11A4E;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar5 {
-	border-left-color: #D11A4E;
+	border-left-color: #0C4B0C;
 }
 
 /* Poster profile block
