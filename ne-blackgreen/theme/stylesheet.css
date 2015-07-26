@@ -17,6 +17,8 @@ h1 {
 }
 #wrap {
 	max-width: 900px;
+	margin-left: auto;
+    margin-right: auto;
 }
 .headerbar {
   height: 100px;
@@ -263,7 +265,7 @@ div.rules {
 }
 
 p.post-notice {
-	background-color: #ECD5D8;
+	background-color: #570A14;
 	background-image: none;
 }
 
@@ -674,7 +676,7 @@ Colours and backgrounds for buttons.css
 }
 
 .dropdown-select {
-	color: #536482; /*alte Farbe */
+	color: #E47110;
 }
 
 .button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
@@ -1039,6 +1041,14 @@ fieldset.quick-login input.inputbox {
 	color: #FFFFFF;
 }
 
+#message-box textarea.drag-n-drop {
+	outline-color: #0D0;
+}
+
+#message-box textarea.drag-n-drop-highlight {
+	outline-color: #0D0;
+}
+
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
@@ -1174,7 +1184,7 @@ input.disabled {
 }
 
 .dropdown .pointer-inner {
-	border-color: #FFF transparent;
+	border-color: #0D0 transparent;
 }
 
 .dropdown-extended .pointer-inner {
@@ -1227,4 +1237,6 @@ Changes to imageset.css
 	padding-left: 80px;
 	padding-top: 72px;
 }
-
+.imageset.icon_topic_unapproved {
+  background-image: url("./images/icon_topic_unapproved.gif");
+}
