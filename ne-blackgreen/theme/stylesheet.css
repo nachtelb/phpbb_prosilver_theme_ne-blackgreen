@@ -128,7 +128,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 	background-color: #404040; 
 }
 
-.bg2 {  
+.bg2 {
 	background-color: #171717;
 }
 
@@ -136,8 +136,8 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: #e1ebf2; /* alte Farbe */
 }
 
-.bg3	{ 
-  background-color: #404040; 
+.bg3	{
+	background-color: #404040; 
 }
 
 .ucprowbg {
@@ -342,11 +342,11 @@ a.arrow-up:hover {
 	background-color: transparent;
 }
 
-a.left:hover {
+a.arrow-left:hover {
 	color: #808080;
 }
 
-a.right:hover {
+a.arrow-right:hover {
 	color: #808080;
 }
 
@@ -975,7 +975,7 @@ dl.mini dt {
 	border-color: #808080;
 }
 
-pmlist li.pm_foe_colour, .pm_foe_colour {
+.pmlist li.pm_foe_colour, .pm_foe_colour {
 	border-color: #FFFFFF;
 }
 
