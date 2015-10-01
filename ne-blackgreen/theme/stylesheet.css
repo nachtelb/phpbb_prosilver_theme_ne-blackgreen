@@ -1161,7 +1161,8 @@ input.disabled {
 
 .dropdown-extended .header, .dropdown-extended .footer {
 	border-color: #004000;
-	color: #EFEFEF;
+	color: #00cc00;
+    text-shadow: none;
 }
 
 .dropdown-extended .footer {
@@ -1188,7 +1189,7 @@ input.disabled {
 }
 
 .dropdown-extended .pointer-inner {
-	border-color: #F1F8FF transparent;
+	border-color: #0D0 transparent;
 }
 
 ul.linklist li.responsive-menu a.responsive-menu-link:before {
