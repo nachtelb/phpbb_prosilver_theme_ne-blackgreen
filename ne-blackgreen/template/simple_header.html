@@ -22,6 +22,8 @@
 	})(document);
 </script>
 <!-- ENDIF -->
+<link href="{T_FONT_AWESOME_LINK}" rel="stylesheet">
+<link href="{ROOT_PATH}styles/prosilver/theme/base.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/prosilver/theme/common.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/prosilver/theme/links.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/prosilver/theme/content.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
@@ -29,16 +31,17 @@
 <link href="{ROOT_PATH}styles/prosilver/theme/cp.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/prosilver/theme/forms.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <link href="{ROOT_PATH}styles/prosilver/theme/colours.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
-<link href="{ROOT_PATH}styles/prosilver/theme/imageset.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet"> 
-<link href="{T_STYLESHEET_LINK}" rel="stylesheet" />
-<link href="{T_STYLESHEET_LANG_LINK}" rel="stylesheet"> 
-<link href="{ROOT_PATH}styles/prosilver/theme/responsive.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet" media="all and (max-width: 700px)">
+<link href="{ROOT_PATH}styles/prosilver/theme/icons.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet"> 
+<link href="{ROOT_PATH}styles/prosilver/theme/normalize.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet"> 
+<link href="{ROOT_PATH}styles/prosilver/theme/utilities.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">  
+<link href="{T_STYLESHEET_LINK}" rel="stylesheet">
+<link href="{T_STYLESHEET_LANG_LINK}" rel="stylesheet">
+
 <!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
 <link href="{ROOT_PATH}styles/prosilver/theme/bidi.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <!-- ENDIF -->
 
-
-<!--[if lte IE 8]>
+<!--[if lte IE 9]>
 	<link href="{ROOT_PATH}styles/prosilver/theme/tweaks.css?assets_version={T_ASSETS_VERSION}" rel="stylesheet">
 <![endif]-->
 
@@ -56,6 +59,6 @@
 
 <!-- EVENT simple_header_body_before -->
 
-<div id="wrap">
-	<a id="top" class="anchor" accesskey="t"></a>
-	<div id="page-body" role="main">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-body" class="page-body" role="main">
