@@ -1,12 +1,13 @@
 /*  phpBB3 Style Sheet
     --------------------------------------------------------------
 	Style name:		ne-blackgreen
-	Based on style:	 	prosilver	
+	Based on style:		prosilver	
 	Original author:	Tom Beddard ( http://www.subblue.com/ )
 	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
 	Modified by:		Bernhard ( http://www.nachtelb.de/ )
     --------------------------------------------------------------
 */
+
 @import url("normalize.css");
 @import url("base.css");
 @import url("utilities.css");
@@ -17,6 +18,5 @@
 @import url("cp.css");
 @import url("forms.css");
 @import url("icons.css");
-@import url("ne-colours.css");
+@import url("colours.css");
 @import url("responsive.css");
-@import url("ne-common.css");

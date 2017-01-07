@@ -32,18 +32,16 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #0D0; }
-a:hover { color: #ED8E00; }
-
-a .icon { color: #E1E1E1; }
+a { color: #00DD00; }
+a:hover	{ color: #FF9900; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
-	color: #0C0;
+	color: #00CC00;
 }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
-	color: #ED8E00;
+	color: #FF9900;
 }
 
 /* Notification mark read link */
@@ -54,17 +52,17 @@ a .icon { color: #E1E1E1; }
 /* Post body links */
 .postlink {
 	border-bottom-color: #A0A0A0;
-	color: #0C0;
+	color: #00CC00;
 }
 
 .postlink:visited {
 	border-bottom-color: #A0A0A0;
-	color: #0C0;
+	color: #909090;
 }
 
 .postlink:hover {
 	background-color: #000000;
-	color: #ED8E00;
+	color: #FFF;
 }
 
 .signature a, .signature a:hover {
@@ -73,12 +71,12 @@ a .icon { color: #E1E1E1; }
 
 /* Back to top of page */
 .top i {
-	color: #999999;
+	color: #808080;
 }
 
 /* Arrow links  */
 .arrow-left:hover, .arrow-right:hover {
-	color: #808080;
+	color: #00CC00;
 }
 
 /* Round cornered boxes and backgrounds
@@ -90,23 +88,15 @@ a .icon { color: #E1E1E1; }
 
 .headerbar {
 	background-color: #002000;
-	background-image: -webkit-linear-gradient(top, #000E00, #003000);
-	background-image: linear-gradient(to bottom, #000E00, #003000);
+	background-image: -webkit-linear-gradient(top, #050505, #002000);
+	background-image: linear-gradient(to bottom, #050505, #002000);
 	background-repeat: repeat-x;
 }
 
-.forabg {
+.forabg, .forumbg {
 	background-color: #006600;
-	background-image: -webkit-linear-gradient(top, #003300 0%, #009900 100%);
-	background-image: linear-gradient(to bottom, #003300 0%, #009900 100%);
-	background-repeat: repeat-x;
-}
-
-
-.forumbg {
-	background-color: #002000;
-	background-image: -webkit-linear-gradient(top, #004804, #002000);
-	background-image: linear-gradient(to bottom, #004804, #002000);
+	background-image: -webkit-linear-gradient(top, #003300, #009900);
+	background-image: linear-gradient(to bottom, #003300, #009900);
 	background-repeat: repeat-x;
 }
 
@@ -114,11 +104,11 @@ a .icon { color: #E1E1E1; }
 	background-color: #004000;
 	background-image: -webkit-linear-gradient(top, #004000, #001000);
 	background-image: linear-gradient(to bottom, #004000, #001000);
-	background-repeat: repeat-x;
+	background-repeat: repeat-x;;
 }
 
 .panel {
-	background-color: #001700;
+	background-color: #404040;
 	color: #FFFFFF;
 }
 
@@ -143,7 +133,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
-	background-color: #1B3F19; /*wrong colour?*/
+	background-color: #171717;
 }
 
 .bg3	{
@@ -151,11 +141,11 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .ucprowbg {
-	background-color: #1B3F19; /*wrong colour?*/
+	background-color: #404040;
 }
 
 .fieldsbg {
-	background-color: #E7E8EA; /*wrong colour?*/
+	background-color: #E7E8EA;
 }
 
 .site_logo {
@@ -172,11 +162,11 @@ ul.navlinks {
 /* Table styles
 ----------------------------------------*/
 table.table1 thead th {
-	color: #D4D4D4;
+	color: #000000;
 }
 
 table.table1 tbody tr {
-	border-color: #3C3C3C;
+	border-color: #808080;
 }
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
@@ -189,11 +179,11 @@ table.table1 td {
 }
 
 table.table1 tbody td {
-	border-top-color: #3C3C3C;
+	border-top-color: #000000;
 }
 
 table.table1 tbody th {
-	border-bottom-color: #3C3C3C;
+	border-bottom-color: #FFFFFF;
 	color: #FFFFFF;
 	background-color: #000000;
 }
@@ -219,76 +209,76 @@ dl.details dd {
 /* Icon styles
 ---------------------------------------- */
 .icon.icon-blue, a:hover .icon.icon-blue {
-	color: #E1E1E1; 
+	color: #196db5;
 }
 
 .icon.icon-green, a:hover .icon.icon-green{
-	color: #E1E1E1; 
+	color: #1b9A1B;
 }
 
 .icon.icon-red, a:hover .icon.icon-red{
-	color: #F90; 
+	color: #BC2A4D;
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange{
-	color: #FF6600; 
+	color: #FF6600;
 }
 
 .icon.icon-bluegray, a:hover .icon.icon-bluegray{
-	color: #536482; 
+	color: #536482;
 }
 
 .icon.icon-gray, a:hover .icon.icon-gray{
-	color: #E1E1E1; 
+	color: #777777;
 }
 
 .icon.icon-lightgray, a:hover .icon.icon-lightgray{
-	color: #999999; 
+	color: #999999;
 }
 
 .icon.icon-black, a:hover .icon.icon-black{
-	color: #333333; 
+	color: #333333;
 }
 
 .alert_close .icon:before {
-	background-color: #000; 
+	background-color: #FFFFFF;
 }
 
 /* Jumpbox */
 .jumpbox .dropdown li {
-	border-top-color: #006000; 
+	border-top-color: #CCCCCC;
 }
 
 .jumpbox-cat-link {
-	background-color: #003000; 
-	border-top-color: #003000; 
-	color: #FFFFFF; 
+	background-color: #0076b1;
+	border-top-color: #0076B1;
+	color: #FFFFFF;
 }
 
-.jumpbox-cat-link:hover { 
-	background-color: #003000; 
-	border-top-color: #003000; 
-	color: #FFFFFF; 
+.jumpbox-cat-link:hover {
+	background-color: #12A3EB;
+	border-top-color: #12A3EB;
+	color: #FFFFFF;
 }
 
 .jumpbox-forum-link {
-	background-color: #171717; 
+	background-color: #E1EBF2;
 }
 
 .jumpbox-forum-link:hover {
-	background-color: #000; 
+	background-color: #F6F4D0;
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #171717 transparent; 
+	border-color: #E1EBF2 transparent;
 }
 
 .jumpbox-sub-link {
-	background-color: #171717; 
+	background-color: #E1EBF2;
 }
 
 .jumpbox-sub-link:hover {
-	background-color: #000; 
+	background-color: #F1F8FF;
 }
 
 /* Miscellaneous styles
@@ -330,9 +320,9 @@ Colours and backgrounds for content.css
 
 ul.forums {
 	background-color: #090909; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #0B0A0A 0%, #151515 50%, #0B0A0A 100%); 
-	background-image: linear-gradient(to bottom, #0B0A0A 0%, #151515 50%, #0B0A0A 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151515', endColorstr='#0B0A0A',GradientType=0 ); /* IE6-9 */
+	background-image: -webkit-linear-gradient(top, #D2E0EB 0%, #EEF5F9 100%);
+	background-image: linear-gradient(to bottom, #D2E0EB 0%,#EEF5F9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2E0EB', endColorstr='#EEF5F9',GradientType=0 ); /* IE6-9 */
 }
 
 ul.topiclist li {
@@ -530,9 +520,9 @@ fieldset.polls dd div {
 }
 
 .pollbar1 {
-	background-color: #008000;
-	border-bottom-color: #0C4B0C;
-	border-right-color: #0C4B0C;
+  background-color: #008000;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar1 {
@@ -540,9 +530,9 @@ fieldset.polls dd div {
 }
 
 .pollbar2 {
-	background-color: #0C0;
-	border-bottom-color: #0C4B0C;
-	border-right-color: #0C4B0C;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar2 {
@@ -550,9 +540,9 @@ fieldset.polls dd div {
 }
 
 .pollbar3 {
-	background-color: #0C0;
-	border-bottom-color: #0C4B0C;
-	border-right-color: #0C4B0C;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar3 {
@@ -560,9 +550,9 @@ fieldset.polls dd div {
 }
 
 .pollbar4 {
-	background-color: #0C0;
-	border-bottom-color: #0C4B0C;
-	border-right-color: #0C4B0C;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar4 {
@@ -570,9 +560,9 @@ fieldset.polls dd div {
 }
 
 .pollbar5 {
-	background-color: #0C0;
-	border-bottom-color: #0C4B0C;
-	border-right-color: #0C4B0C;
+  background-color: #0C0;
+  border-bottom-color: #0C4B0C;
+  border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar5 {
@@ -587,7 +577,7 @@ fieldset.polls dd div {
 }
 
 .pm .postprofile {
-	border-color: #404040;
+	border-left-color: #404040;
 }
 
 .postprofile strong {
@@ -599,7 +589,7 @@ fieldset.polls dd div {
 }
 
 dd.profile-warnings {
-	color: #BC2A4D;  /*wrong colour*/
+	color: #202020;
 }
 
 /*
@@ -609,41 +599,85 @@ Colours and backgrounds for buttons.css
 .button {
 	border-color: #0C4B0C;
 	background-color: #000; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #003000 0%, #000 50%);
-	background-image: linear-gradient(to bottom, #003000 0%,#000 50%); /* W3C */
+	background-image: -webkit-linear-gradient(top, #003000 0%, #000 100%);
+	background-image: linear-gradient(to bottom, #003000 0%, #000 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003000', endColorstr='#000',GradientType=0 ); /* IE6-9 */
-	color: #0D0;
+	-webkit-box-shadow: 0 0 0 1px #002000 inset;
+	color: #F90;
 }
 
 .button:hover,
 .button:focus {
-	border-color: #909090;
-	background-color: #000; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #909090 0%, #000 50%);
-	background-image: linear-gradient(to bottom, #909090 0%,#000 50%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#909090', endColorstr='#000',GradientType=0 ); /* IE6-9 */
+	border-color: #0A8ED0;
+	background-color: #FFFFFF; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #E9E9E9 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #E9E9E9 0%,#FFFFFF 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9E9E9', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
+	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
 }
 
 
 .button .icon,
 .button-secondary {
-	color: #A4A4A4;
+	color: #8f8f8f;
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #00cc00;
+	color: #0A8ED0;
 }
 
 .button-search:hover,
 .button-search-end:hover {
-	border-color: #909090;
+	border-color: #C7C3BF;
 }
 
-.caret	{ border-color: #005000; }
-.caret	{ border-color: #009000; }
+.post-buttons .button {
+	border-color: #909090;
+	background-color: #000;
+	background-image: -moz-linear-gradient(top, #909090, #000);
+	background-image: -webkit-linear-gradient(top, #909090, #000);
+	background-image: -o-linear-gradient(top, #909090, #000);
+	background-image: linear-gradient(to bottom, #909090, #000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#909090', EndColorStr='#000')";
+	box-shadow: 0 0 0 1px #606060 inset;
+	-webkit-box-shadow: 0 0 0 1px #002000 inset;
+	color: #F90;
+}
+
+.post-buttons .button:hover {
+	border-color: #909090;
+	background-color: #303030;
+	background-image: -moz-linear-gradient(top, #000, #909090);
+	background-image: -webkit-linear-gradient(top, #000, #909090);
+	background-image: -o-linear-gradient(top, #000, #909090);
+	background-image: linear-gradient(to bottom, #000, #909090);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#000', EndColorStr='#909090')";
+}
+
+.dropdown-select {
+	color: #E47110;
+}
+
+.button:hover, .dropdown-visible .dropdown-select, .nojs .dropdown-container:hover .dropdown-select {
+	border-color: #007000;
+	background-image: -moz-linear-gradient(top, #002000, #000);
+	background-image: -webkit-linear-gradient(top, #002000, #000);
+	background-image: -o-linear-gradient(top, #002000, #000);
+	background-image: linear-gradient(to bottom, #002000, #000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#002000', EndColorStr='#000')";
+	text-shadow: 1px 1px 0 #505050, -1px -1px 0 #000, -1px -1px 0 rgba(188, 42, 77, 0.2);
+}
+
+.dropdown-select:after	{ border-color: #005000; }
+.dropdown-select:hover	{ border-color: #009000; }
+
+.dropdown-visible .dropdown-select, .dropdown-visible .dropdown-select:hover, .nojs .dropdown-container:hover .dropdown-select {
+	border-color: #005000;
+	color: #00cc00;
+}
 
 .contact-icons a		{ border-color: #005000; }
 .contact-icons a:hover	{ background-color: #101010; }
@@ -652,7 +686,7 @@ Colours and backgrounds for buttons.css
 ---------------------------------------- */
 
 .pagination li a {
-	background-color: #ECEDEE;
+	background: #ECEDEE;
 	filter: none;
 	border-color: #B4BAC0;
 	box-shadow: none;
@@ -817,7 +851,7 @@ ul.cplist {
 	background-color: #909090; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #707070 0%, #404040 100%);
 	background-image: linear-gradient(to bottom, #707070 0%, #404040 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', endColorstr='#404040',GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', endColorstr='#404040', GradientType=0 ); /* IE6-9 */
 	border-color: #404040;
 	box-shadow: 0 1px 1px #F2F9FF inset;
 	color: #0D0;
@@ -858,18 +892,18 @@ ul.cplist {
 	background: #101010; /* Old browsers */ /* FF3.6+ */
 	background: -webkit-linear-gradient(left, #101010 50%, #000 100%);
 	background: linear-gradient(to right, #101010 50%, #000 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#000',GradientType=1 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#000', GradientType=1 ); /* IE6-9 */
 }
 
 .rtl .navigation a {
 	background: #808080; /* Old browsers */ /* FF3.6+ */
 	background: -webkit-linear-gradient(left, #CADCEB 0%, #B4C4D1 50%);
-	background: linear-gradient(to right, #CADCEB 0%, #B4C4D1 50%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CADCEB', endColorstr='#B4C4D1', GradientType=1 );
+	background: linear-gradient(to right, #CADCEB 0%, #B4C4D1 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CADCEB', endColorstr='#B4C4D1',GradientType=1 ); /* IE6-9 */
 }
 
 .navigation a:hover {
-	background-color: #202020;
+	background: #202020;
 	color: #F90;
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
@@ -1053,8 +1087,8 @@ fieldset.quick-login input.inputbox {
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	color: #020000;
 	background-color: #909090; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #E0E0E0, #909090);
-	background-image: linear-gradient(to bottom, #E0E0E0, #909090); /* W3C */
+	background-image: -webkit-linear-gradient(top, #E0E0E0 0%, #909090 100%);
+	background-image: linear-gradient(to bottom, #E0E0E0 0%, #909090 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E0E0E0', endColorstr='#909090',GradientType=0 ); /* IE6-9 */
 }
 
@@ -1078,18 +1112,18 @@ a.button1, a.button2 {
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: #BFBFBF; 
-	color: #000000; 
+	border-color: #D31141;
+	color: #D31141;
 	background-color: #E0E0E0; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #909090, #E0E0E0);
-	background-image: linear-gradient(to bottom, #909090, #E0E0E0); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#909090', endColorstr='#E0E0E0',GradientType=0 )"; /* IE6-9 */
+	background-image: -webkit-linear-gradient(top, #909090 0%, #E0E0E0 100%);
+	background-image: linear-gradient(to bottom, #909090 0%, #E0E0E0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#909090', endColorstr='#E0E0E0',GradientType=0 ); /* IE6-9 */
 }
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #11A3EA; /*wrong colour*/
-	color: #0F4987; /*wrong colour*/
+	border-color: #11A3EA;
+	color: #0F4987;
 }
 
 input.disabled {
@@ -1103,6 +1137,7 @@ input.disabled {
 	border-color: #D06000;
 	color: #FFF;
 }
+
 .darken {
 	background-color: #000000;
 }
@@ -1124,7 +1159,7 @@ input.disabled {
 .dropdown-extended .header, .dropdown-extended .footer {
 	border-color: #004000;
 	color: #00cc00;
-	text-shadow: none;
+    text-shadow: none;
 }
 
 .dropdown-extended .footer {
@@ -1135,7 +1170,7 @@ input.disabled {
 .dropdown-extended .header {
 	background-color: #000; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #004000 0%, #000 100%);
-	background-image: linear-gradient(top, #004000 0%, #000 100%);
+	background-image: linear-gradient(top, #004000 0%, #000 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004000', endColorstr='#000',GradientType=0 ); /* IE6-9 */
 }
 
@@ -1180,4 +1215,7 @@ li.notification-reported strong, li.notification-disapproved strong {
 	color: #F90;
 }
 
-
+.badge {
+	background-color: #D31141;
+	color: #ffffff;
+}
