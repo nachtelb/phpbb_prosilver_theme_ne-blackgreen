@@ -833,7 +833,7 @@ table.fixed-width-table {
 	width: 8px;
 	height: 8px;
 	-webkit-appearance: none;
-	background: rgba(0, 0, 0, .1);
+	background: #E0E0E0;
 	border-radius: 3px;
 }
 

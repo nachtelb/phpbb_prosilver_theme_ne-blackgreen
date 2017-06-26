@@ -129,7 +129,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #171717;
+	background-color: #262626;;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -203,7 +203,7 @@ dl.details dd {
 }
 
 .sep {
-	color: #808080;
+	color: #000;
 }
 
 /* Icon styles
@@ -294,7 +294,7 @@ dl.details dd {
 }
 
 .error {
-	color: #600000; 
+    color: #ffe100;
 }
 
 .reported {
