@@ -414,13 +414,8 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #303030;
-	background-image: url("./images/quote.gif");
 	border-color:#707070;
 	color: #E0E0E0
-}
-
-.rtl blockquote {
-	background-image: url("./images/quote_rtl.gif");
 }
 
 blockquote blockquote {
@@ -446,13 +441,6 @@ blockquote blockquote blockquote {
 .codebox code {
 	color: #0D0;
 }
-
-.syntaxbg		{ color: #000000; }
-.syntaxcomment	{ color: #FF8000; }
-.syntaxdefault	{ color: #0000BB; }
-.syntaxhtml		{ color: #FFFFFF; }
-.syntaxkeyword	{ color: #007700; }
-.syntaxstring	{ color: #DD0000; }
 
 /* Attachments
 ----------------------------------------*/
