@@ -244,10 +244,10 @@ dl.details dd {
 	background-color: #000000;
 }
 
-/* You could change the color of the nav-bar-icons here */
-.navbar > .inner > ul > li > a > i, ul#nav-footer > li.breadcrumbs > span.crumb > a > i {
-    color: #00DD00;
-}
+/* You could change the color of the nav-bar-icons here 
+.navbar > .inner > ul > li > a > i, ul#nav-footer > li.breadcrumbs > span.crumb > a > i { 
+    color: #00DD00; 
+} */
 
 /* Jumpbox */
 .jumpbox .dropdown li {
@@ -513,9 +513,9 @@ fieldset.polls dd div {
 }
 
 .pollbar1 {
-  background-color: #008000;
-  border-bottom-color: #0C4B0C;
-  border-right-color: #0C4B0C;
+	background-color: #008000;
+	border-bottom-color: #0C4B0C;
+	border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar1 {
@@ -523,9 +523,9 @@ fieldset.polls dd div {
 }
 
 .pollbar2 {
-  background-color: #0C0;
-  border-bottom-color: #0C4B0C;
-  border-right-color: #0C4B0C;
+	background-color: #0C0;
+	border-bottom-color: #0C4B0C;
+	border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar2 {
@@ -533,9 +533,9 @@ fieldset.polls dd div {
 }
 
 .pollbar3 {
-  background-color: #0C0;
-  border-bottom-color: #0C4B0C;
-  border-right-color: #0C4B0C;
+	background-color: #0C0;
+	border-bottom-color: #0C4B0C;
+	border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar3 {
@@ -543,9 +543,9 @@ fieldset.polls dd div {
 }
 
 .pollbar4 {
-  background-color: #0C0;
-  border-bottom-color: #0C4B0C;
-  border-right-color: #0C4B0C;
+	background-color: #0C0;
+	border-bottom-color: #0C4B0C;
+	border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar4 {
@@ -553,9 +553,9 @@ fieldset.polls dd div {
 }
 
 .pollbar5 {
-  background-color: #0C0;
-  border-bottom-color: #0C4B0C;
-  border-right-color: #0C4B0C;
+	background-color: #0C0;
+	border-bottom-color: #0C4B0C;
+	border-right-color: #0C4B0C;
 }
 
 .rtl .pollbar5 {
@@ -636,12 +636,12 @@ Colours and backgrounds for buttons.css
 ---------------------------------------- */
 
 .pagination li a {
-    background: #002402;
-    filter: none;
-    border-color: #002402;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    color: #FFAF36;
+	background: #002402;
+	filter: none;
+	border-color: #002402;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	color: #FFAF36;
 }
 
 .pagination li.ellipsis span {
@@ -757,7 +757,7 @@ Colours and backgrounds for cp.css
 /* Main CP box
 ----------------------------------------*/
 
-.panel-container h3, .panel-container hr, #cp-menu hr {
+.panel-container h3, .panel-container hr, .cp-menu hr {
 	border-color: #808080;
 }
 
@@ -1032,15 +1032,14 @@ fieldset.quick-login input.inputbox {
 
 
 /* Form button styles
----------------------------------------- 
-*/
+---------------------------------------- */
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	color: #020000;
-	background-color: #909090; 
+	background-color: #909090; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #E0E0E0 0%, #909090 100%);
-	background-image: linear-gradient(to bottom, #E0E0E0 0%, #909090 100%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E0E0E0', endColorstr='#909090',GradientType=0 ); 
+	background-image: linear-gradient(to bottom, #E0E0E0 0%, #909090 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E0E0E0', endColorstr='#909090',GradientType=0 ); /* IE6-9 */
 }
 
 a.button1, input.button1 {
@@ -1063,8 +1062,8 @@ a.button1, a.button2 {
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
+	border-color: #909090;
 	color: #F90;
-  border-color: #909090;
 	background-color: #303030; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #202020 0%, #000 100%);
 	background-image: linear-gradient(to bottom, #202020 0%,#000 100%); /* W3C */
@@ -1103,7 +1102,7 @@ input.disabled {
 .dropdown-extended .header, .dropdown-extended .footer {
 	border-color: #004000;
 	color: #00cc00;
-    text-shadow: none;
+	text-shadow: none;
 }
 
 .dropdown-extended .footer {
@@ -1160,6 +1159,6 @@ li.notification-reported strong, li.notification-disapproved strong {
 }
 
 .badge {
-    background-color: #FF7500;
-    color: #052400;
+	background-color: #FF7500;
+	color: #052400;
 }
