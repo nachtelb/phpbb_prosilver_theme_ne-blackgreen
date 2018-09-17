@@ -87,6 +87,7 @@ a:hover	{ color: #FF9900; }
 }
 
 .headerbar {
+	color: #e3860a;
 	background-color: #002000;
 	background-image: -webkit-linear-gradient(top, #050505, #002000);
 	background-image: linear-gradient(to bottom, #050505, #002000);
