@@ -482,7 +482,7 @@ blockquote cite cite {
 
 blockquote cite:before, .uncited:before {
 	padding-right: 5px;
- }
+}
 
 blockquote cite > div {
 	float: right;
@@ -529,6 +529,7 @@ blockquote .codebox {
 /* Attachments
 ----------------------------------------*/
 .attachbox {
+	font-size: 13px;
 	float: left;
 	width: auto;
 	max-width: 100%;
@@ -840,7 +841,7 @@ table.fixed-width-table {
 	width: 8px;
 	height: 8px;
 	-webkit-appearance: none;
-	background: #E0E0E0;
+	background: rgba(0, 0, 0, .1);
 	border-radius: 3px;
 }
 
